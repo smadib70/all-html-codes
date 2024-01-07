@@ -1,0 +1,54 @@
+.header{
+    color: blueviolet;
+    height: 500px;
+    background-color: antiquewhite;
+    background-image: url("../ND-96960.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover ; */
+    /* background-size: contain; */
+    background-size: 200px;
+}
+
+.dolor{
+    border: 2px solid purple;
+    height: 50px;
+    /* display: block; */
+    display: inline-block;
+}
+
+
+
+h2{
+    font-size: xx-large;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.blog{
+    margin: 20px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 20px blueviolet;
+
+}
+
+.nostrum{
+    border: 3px solid yellowgreen;
+    /* height: 50px; */
+    /* display: block; */
+    margin: 20px;
+    display: inline-block;
+
+}
+
+
+li{
+    display: inline;
+}
+
+
+.second{
+    /* display: none; */
+    visibility: hidden;
+}
