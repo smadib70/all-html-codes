@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamal er mayer pitha ghor</title>
+    <style>
+      label {
+        display: block;
+        margin: 10px;
+      }
+      fieldset {
+        margin-bottom: 10px;
+      }
+    </style>
+    <link rel="stylesheet" href="CSS-Styles/Nav.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="HTML video.html">Video</a></li>
+          <li><a href="HTML form.html">Form</a></li>
+          <li><a href="HTML table.html">Table</a></li>
+          <li><a href="HTML-blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Please fill up the form</h2>
+        <form>
+          <label for="name"
+            >Your Name:
+            <input id="name" type="text" placeholder="Your Name" />
+          </label>
+
+          <label for="email"
+            >Your Email:
+            <input type="email" name="" id="email" placeholder="Your Email" />
+          </label>
+          <label for="phone"
+            >Your Phone:
+            <input id="phone" type="text" placeholder="Phone Number" />
+          </label>
+
+          <fieldset>
+            <legend>Pick one pitha</legend>
+            <label for="chitoy">
+              <input type="radio" name="pitha" id="chitoy" />Chitoy
+            </label>
+            <label for="vapa">
+              <input type="radio" name="pitha" id="vapa" />Vapa
+            </label>
+            <label for="puri">
+              <input type="radio" name="pitha" id="puri" />Puri
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Pick one or more vorta</legend>
+            <label for="alu vorta">
+              <input type="checkbox" name="vorta" id="Alu vorta" />Alu vorta
+            </label>
+            <label for="Dal Vorta">
+              <input type="checkbox" name="vorta" id="dal vorta" />Dal Vorta
+            </label>
+            <label for="sutki">
+              <input type="checkbox" name="vorta" id="sutki" />Sutki vorta
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Special instruction</legend>
+            <textarea name="" id="" cols="30" rows="2"></textarea>
+            <input type="reset" value="reset" />
+            <input type="submit" value="submit" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
